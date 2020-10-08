@@ -1,0 +1,52 @@
+.FormTextarea {
+  margin-bottom: 20px;
+}
+
+.FormTextarea .label {
+  width: 100%;
+  margin: 0 auto 5px 5px; 
+}
+
+.FormTextarea.white .label {
+  color: white;
+}
+
+.FormTextarea textarea {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 14px;
+  line-height: 23px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  outline-width: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(230, 223, 223);
+  -webkit-box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.20);
+  -moz-box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.20);
+  box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.20);
+  resize: vertical;
+  transition: 0.3s;
+}
+
+.FormTextarea textarea:focus {
+  border: 1px solid #1D6EB6;
+  -webkit-box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.40);
+  -moz-box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.40);
+  box-shadow: 2px 1px 5px 0px rgba(2,92,171,0.40);
+}
+
+.FormTextarea.white textarea {
+  border: 1px solid rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 1px 5px 0px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 2px 1px 5px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 1px 5px 0px rgba(255, 255, 255, 0.2);
+}
+
+.FormTextarea.white textarea:focus {
+  border: 1px solid #70ade2;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
+  box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
+}

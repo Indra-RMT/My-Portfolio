@@ -1,0 +1,41 @@
+.Button {
+  cursor: pointer;
+  font: inherit;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-size: 17px;
+  /* text-transform: uppercase; */
+  outline-width: 0;
+  border: 3px solid #808080;
+}
+
+.Success {
+  /* background-color: #1D6EB6; */
+  background-color: transparent;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.Button:hover {
+  border: 3px solid #1D6EB6;
+  transition: .5s;
+  background-color: #383838;
+}
+
+@media screen and (min-width: 1801px) {
+  .Button {
+    padding: 12px 65px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+  .Button {
+    padding: 12px 60px;
+    font-size: 19px;
+  }
+}

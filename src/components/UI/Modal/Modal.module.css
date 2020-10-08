@@ -1,0 +1,123 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px black;
+  padding: 0 16px 16px 16px;
+  left: 15%;
+  top: 20px;
+  box-sizing: border-box;
+  animation: animate 0.4s;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.Modal .headerModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 2px 2px -2px #bbb;
+  padding: 16px 0 12px 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  color: #24292E;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.Modal .headerModal {
+  font-weight: 600;
+}
+
+.Modal .closeButton {
+  border: 1px solid #ccc;
+  padding: 4px 5px 0 7px;
+  margin-top: -2px;
+  margin-left: 4px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: center;
+  color: #837f7f;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Modal .webDetail {
+  margin: 10px 0;
+  border-bottom: 1px solid rgb(226, 224, 224);
+}
+
+.Modal .labelDetail {
+  color: #837f7f;
+  margin-bottom: 4px;
+}
+
+.Modal .contentDetail {
+  padding: 0 8px 10px 8px;
+  color: #24292E;
+}
+
+.Modal .contentDetail ul {
+  margin-left: -20px;
+}
+
+@keyframes animate{
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media screen and (min-width: 900px) {
+  .Modal .content {
+    display: flex;
+  }
+
+  .Modal .content > * + * {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .Modal {
+    width: 80%;
+    left: 10%;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Modal {
+    width: 86%;
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Modal {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Modal {
+    width: 90%;
+    max-height: calc(100vh - 40px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Modal {
+    width: 97%;
+    left: 1.5%;
+    max-height: calc(100vh - 40px);
+  }
+}

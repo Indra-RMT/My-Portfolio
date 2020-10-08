@@ -1,0 +1,46 @@
+.PageContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+@media screen and (min-width: 1801px) {
+  .PageContainer {
+    margin-left: calc(300px - 1.5rem);
+    margin-right: calc(300px - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .PageContainer {
+    margin-left: calc(150px - 1.5rem);
+    margin-right: calc(150px - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .PageContainer {
+    margin-left: calc(100px - 1.5rem);
+    margin-right: calc(100px - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .PageContainer {
+    margin-left: calc(50px - 1.5rem);
+    margin-right: calc(50px - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .PageContainer {
+    margin-left: calc(20px - 1.5rem);
+    margin-right: calc(20px - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .PageContainer {
+    margin-left: calc(15px - 1.5rem);
+    margin-right: calc(15px - 1.5rem);
+  }
+}

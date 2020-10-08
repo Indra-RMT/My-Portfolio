@@ -1,0 +1,69 @@
+section.SocialMedia {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff; */
+  /* margin-top: 100px; */
+}
+
+.SocialMedia .iconBtn {
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  font-size: 40px;
+  border-radius: 50%;
+  outline-width: 0;
+}
+
+.SocialMedia .iconBtn::before .fa.fa-github {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.SocialMedia .iconBtn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.SocialMedia .iconBtn {
+  border: 4px solid #fff;
+  color: #000000;
+}
+
+.SocialMedia .iconBtn::after {
+  background-color: #fff;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.SocialMedia .iconBtn:hover::after {
+  transform: scale(1.3);
+  opacity: 0.1;
+  background-color: #3988ce;
+  cursor: pointer;
+}
+
+.SocialMedia .iconBtn:hover {
+  color: rgb(0, 0, 0);
+}
+
+.SocialMedia .iconImage {
+  margin-top: 5px;
+}
+
+
+
+

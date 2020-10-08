@@ -1,0 +1,18 @@
+.HeaderSection {
+  font-size: 33px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 50px 0 50px 0;
+  font-weight: 500;
+}
+
+.HeaderSection.white {
+  color: white;
+} 
+
+.HeaderSection .dashStriped {
+  width: 50px;
+  border-bottom: 3px solid #1D6EB6;
+  margin: 8px auto 0 auto;
+  border-radius: 10px;
+}

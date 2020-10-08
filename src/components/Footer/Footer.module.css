@@ -1,0 +1,12 @@
+.Footer {
+  margin-top: 0;
+  border-top: 2px solid rgb(240, 236, 245);
+  background-color: #272727;
+  /* border-bottom: 7px solid #1D6DB6; */
+}
+
+.Footer .copyright {
+  padding: 14px;
+  text-align: center;
+  color: #ffffff;
+}

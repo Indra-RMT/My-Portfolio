@@ -1,0 +1,43 @@
+.ContactMe {
+  background-color: #272727;
+  padding-bottom: 50px;
+}
+
+.ContactMe .wrapper {
+  width: calc(100% - 30px);
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.ContactMe .btnContainer {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.ContactMe .RowControl {
+  display: grid;
+}
+
+@media screen and (min-width: 650px) {
+  .ContactMe .RowControl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .ContactMe .wrapper {
+    width: calc(100% - 30px);
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ContactMe .wrapper {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+  }
+}

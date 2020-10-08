@@ -1,0 +1,81 @@
+.AllWork *,
+.AllWork *::before,
+.AllWork *::after { 
+  box-sizing: border-box;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+.AllWork .works {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 50px 0;
+}
+
+/* .AllWork .animate {
+  animation: fadein 2s;
+} */
+
+.AllWork .wrapper {
+  display: flex;
+  padding: 1.5rem;
+}
+
+.AllWork .button {
+  cursor: pointer;
+}
+
+.AllWork .button:hover {
+  color: #1d6eb6;
+}
+
+.AllWork .fontAwesome {
+  font-size: 1rem;
+}
+
+.AllWork .selectWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.AllWork .selectCountry {
+  /* display: inline-block; */
+  background-color:#ffffff;
+  height: 65px;
+  display: block;
+  border-radius: 5px;
+  margin: -32.5px 15px 0 15px;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .AllWork .works {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .AllWork .wrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .AllWork .wrapper {
+    width: 33.3333%;
+  }
+}
+
+.AllWork .buttonMore {
+  margin: 1rem 1rem 0 auto;
+}

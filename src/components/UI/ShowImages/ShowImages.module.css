@@ -1,0 +1,108 @@
+.ShowImages {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 346.5px;
+}
+
+.ShowImages .topImage {
+  background-size: cover;
+  margin-top: 15px;
+  border: 1px solid #eee;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  border-radius: 6px;
+  width: 100%;
+  max-width: 346.5px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ShowImages .topImage img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.ShowImages .listImages {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ShowImages .image {
+  background-color: #f1f1f1;
+  width: calc(100% / 4);
+  height: 80px;
+  margin: 10px 5px 5px 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ShowImages .nullImage {
+  width: calc(100% / 4);
+  height: 80px;
+}
+
+.ShowImages .image.active {
+  margin: 10px 5px 5px 5px;border: 1px solid #aaa;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.35);
+}
+
+.ShowImages .image img {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1025px) {
+  .ShowImages {
+    margin: 0 auto 30px auto;
+    max-width: calc(50% - 10%);
+    min-width: calc(50% - 10%);
+  }
+
+  .ShowImages .topImage {
+    width: 100%;
+    max-width: 100%;
+    height: 470px;
+  }
+
+  .ShowImages .image {
+    width: calc(100% / 4);
+    height: 100px;
+    margin: 10px 5px 5px 5px;
+  }
+  
+  .ShowImages .nullImage {
+    width: calc(100% / 4);
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .ShowImages .listImages {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 900px){
+  .ShowImages {
+    margin: 0 auto 30px auto;
+    max-width: 70%;
+    min-width: 346.5px;
+  }
+
+  .ShowImages .topImage {
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ShowImages .listImages {
+    margin-bottom: 30px;
+  }
+}
