@@ -31,6 +31,11 @@ class Modal extends Component {
         url = '-';
       }
 
+      let githubUrl = <a href={allProps.githubUrl} target="_blank" rel="noopener noreferrer">{allProps.githubUrl}</a>;
+      if(allProps.githubUrl === null){
+        githubUrl = '-';
+      }
+
       let listTechnology = [];
       allProps.technologies.forEach(tech => {
         listTechnology.push(<li key={tech}>{tech}</li>);
@@ -84,7 +89,7 @@ class Modal extends Component {
                   Github :
                 </div>
                 <div className={classes.contentDetail}>
-                  {url}
+                  {githubUrl}
                 </div>
               </div>
             </div>

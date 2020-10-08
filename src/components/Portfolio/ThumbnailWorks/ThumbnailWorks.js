@@ -96,13 +96,13 @@ const works = [
   { 
     id: 5,
     category: 'Submission at Dicoding',
-    title: 'Global Covid Data',
-    urlThumbnailPhoto: 'Global-Covid-Data.png',
+    title: 'LoveEat',
+    urlThumbnailPhoto: 'LoveEat-01.png',
     image1: null,
     image2: null,
     image3: null,
-    url: null,
-    githubUrl: null,
+    url: 'https://love-eat.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Love-Eat',
     technologies: [
       'HTML', 
       'CSS', 
@@ -115,6 +115,26 @@ const works = [
   },
   { 
     id: 6,
+    category: 'Submission at Dicoding',
+    title: 'Global Covid Data',
+    urlThumbnailPhoto: 'Global-Covid-Data.png',
+    image1: null,
+    image2: null,
+    image3: null,
+    url: 'https://global-covid.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Covid-Data',
+    technologies: [
+      'HTML', 
+      'CSS', 
+      'JavaScript', 
+      'Fetch API',
+      'Webpack'
+    ],
+    description: 'Website yang dibuat untuk menampilkan data covid terkini dari seluruh dunia, data diambil menggunakan Fetch API dan ditampilkan ke dalam sebuah Singgle Web Page yang responsive di semua perangkat serta menggunakan webpack sebagai module bundler agar website dapat diakses melalui beragam browser terkini maupun browser lawas',
+    startBuild: '-',
+  },
+  { 
+    id: 7,
     category: 'Campus Project',
     title: 'Nursuri Planst’s - plant ordering',
     urlThumbnailPhoto: 'Nursuri-Plants-01.png',
@@ -133,7 +153,7 @@ const works = [
     startBuild: 'April 2018',
   },
   { 
-    id: 7,
+    id: 8,
     category: 'Campus Project',
     title: 'E-Parking',
     urlThumbnailPhoto: 'E-Parking-01.png',
@@ -154,7 +174,7 @@ const works = [
     startBuild: 'Desember 2018',
   },
   { 
-    id: 8,
+    id: 9,
     category: 'Freelance',
     title: 'MMS - Email Blasting',
     urlThumbnailPhoto: 'MMS-Email-Blasting-01.png',
@@ -174,15 +194,15 @@ const works = [
     startBuild: 'Juli 2020'
   },
   { 
-    id: 9,
+    id: 10,
     category: 'Submission at Dicoding',
     title: 'Pengenalan UI',
     urlThumbnailPhoto: 'Pengenalan-UI-01.png',
     image1: 'Pengenalan-UI-02.png',
     image2: 'Pengenalan-UI-03.png',
     image3: 'Pengenalan-UI-04.png',
-    url: null,
-    githubUrl: null,
+    url: 'https://pengenalan-ui.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Pengenalan-UI',
     technologies: [
       'HTML', 
       'CSS',
@@ -192,15 +212,15 @@ const works = [
     ]
   },
   { 
-    id: 10,
+    id: 11,
     category: 'Submission at Dicoding',
     title: 'EPL Football Standings',
     urlThumbnailPhoto: 'Football-Lite-01.png',
     image1: null,
     image2: null,
     image3: null,
-    url: null,
-    githubUrl: null,
+    url: 'https://football-lite.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Football-Lite',
     technologies: [
       'HTML', 
       'CSS',
@@ -211,15 +231,15 @@ const works = [
     ]
   },
   { 
-    id: 11,
+    id: 12,
     category: 'Submission at Dicoding',
     title: 'Pengenalan Bangun Ruang',
     urlThumbnailPhoto: 'Bangun-Ruang-01.png',
     image1: null,
     image2: null,
     image3: null,
-    url: null,
-    githubUrl: null,
+    url: 'https://pengenalan-bangunruang.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Pengenalan-Bangun-Ruang',
     technologies: [
       'HTML', 
       'CSS',
