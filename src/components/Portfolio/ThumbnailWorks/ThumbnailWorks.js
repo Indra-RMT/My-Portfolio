@@ -105,10 +105,13 @@ const works = [
     githubUrl: 'https://github.com/Indra-RMT/Love-Eat',
     technologies: [
       'HTML', 
-      'CSS', 
+      'CSS',
+      'Sass', 
       'JavaScript', 
       'Fetch API',
-      'Webpack'
+      'Webpack',
+      'Karma.js',
+      'End to end Testing',
     ],
     description: 'Website yang dibuat untuk menampilkan data covid terkini dari seluruh dunia, data diambil menggunakan Fetch API dan ditampilkan ke dalam sebuah Singgle Web Page yang responsive di semua perangkat serta menggunakan webpack sebagai module bundler agar website dapat diakses melalui beragam browser terkini maupun browser lawas',
     startBuild: '-',

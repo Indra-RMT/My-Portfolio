@@ -4,7 +4,6 @@ import SmallCard from '../../../UI/SmallCard/SmallCard';
 import Aux from '../../../../hoc/Aux/Aux';
 import Modal from '../../../UI/Modal/Modal';
 
-
 class ThumbnailWork extends Component {
   state = {
     showModal: false,

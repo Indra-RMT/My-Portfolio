@@ -2,6 +2,9 @@
 import React, { Component } from 'react';
 import classes from './SmallCard.module.css';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 class SmallCard extends Component {
   importAll = (r) => {
     let images = {};
@@ -16,7 +19,10 @@ class SmallCard extends Component {
     return (
       <div className={classes.SmallCard} onClick={this.props.buttonClickHandler}>
         <div className={classes.cardImage}>
-          <img src={this.images[this.props.thumbnail]} alt={this.props.title} />
+          <LazyLoadImage
+            alt={this.props.title}
+            src={this.images[this.props.thumbnail]}
+            effect="blur"/>
         </div>
         <div className={classes.cardContent}>
           <div className={classes.cardTitle}>{this.props.title}</div>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import { withRouter } from 'react-router';
+import { withRouter, Redirect } from 'react-router';
 
 import classes from './AllWork.module.css';
 import ThumbnailWork from '../Portfolio/ThumbnailWorks/ThumbnailWork/ThumbnailWork';
@@ -13,7 +13,14 @@ class AllWork extends Component {
   }
 
   render () {
-    const works = this.props.history.location.state.works;
+    let works;
+    
+    try {
+      works = this.props.history.location.state.works;
+    } catch {
+      return (<Redirect to = {''} />);
+    }
+
     const filterCategory = (works, selectedCategory) => {
       return works.filter(work => work.category === selectedCategory);
     };
