@@ -1,15 +1,18 @@
 .ShowImages {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   max-width: 346.5px;
+  padding: 0 16px 16px 16px;
 }
 
 .ShowImages .topImage {
   background-size: cover;
   margin-top: 15px;
   border: 1px solid #eee;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  /* box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25); */
+  -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.15);
   border-radius: 6px;
   width: 100%;
   max-width: 346.5px;
@@ -27,6 +30,7 @@
 .ShowImages .listImages {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 8px;
 }
 
 .ShowImages .image {
@@ -34,8 +38,10 @@
   width: calc(100% / 4);
   height: 80px;
   margin: 10px 5px 5px 5px;
-  border: 1px solid #ccc;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.37);
+  box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.37);
   border-radius: 6px;
   overflow: hidden;
   cursor: pointer;
@@ -47,8 +53,11 @@
 }
 
 .ShowImages .image.active {
-  margin: 10px 5px 5px 5px;border: 1px solid #aaa;
-  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.35);
+  margin: 10px 5px 5px 5px;
+  border: 1px solid #bbb;
+  -webkit-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.41);
+  box-shadow: 0px 1px 9px -2px rgba(0,0,0,0.41);  
 }
 
 .ShowImages .image img {

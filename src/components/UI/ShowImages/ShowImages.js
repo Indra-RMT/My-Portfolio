@@ -5,6 +5,9 @@ import React, { Component } from 'react';
 import classes from './ShowImages.module.css';
 import Aux from '../../../hoc/Aux/Aux';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 class ShowImages extends Component {
   state = {
     allImage: null,
@@ -64,9 +67,10 @@ class ShowImages extends Component {
             className={classListImage}
             key={i}
             onClick={()=>{listImageClicked(image, i)}}>
-            <img 
+            <LazyLoadImage 
               src={sourceImage} 
-              alt={image} />
+              alt={image}
+              effect="blur"/>
           </div>
         );
       } else {
@@ -97,12 +101,12 @@ class ShowImages extends Component {
       <Aux>
         <div className={classes.ShowImages}>
           <div className={classes.topImage}>
-            <img 
+            <LazyLoadImage 
               src={this.state.srcTopImage}
-              alt="mainImage" />
+              alt="mainImage"
+              effect="blur"/>
           </div>
           
-            
           <div className={classes.listImages}>
             {listImage}
           </div>
