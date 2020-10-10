@@ -3,175 +3,48 @@
   background-size: cover;
   background-position: center;
   height: calc(100vh);
+  min-height: 550px;
 }
 
 .HeroSection .heroText {
   position: absolute;
-  left: 100px;
+  /* left: 100px; */
   color: white;
-  top: 28%;
+  top: 16%;
+  width: 100%;
+  text-align: center;
 }
 
 .HeroSection .heroText div:nth-child(1) {
-  font-size: 55px;
+  font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .HeroSection .heroText div:nth-child(2) {
-  font-size: 22px;
-  margin-bottom: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
 }
 
-.HeroSection .heroText div:nth-child(3) {
-  font-size: 22px;
-  margin-bottom: 40px;
-}
-
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 531px) {  
   .HeroSection .heroText {
-    left: 300px;
-    width: calc(100% - 600px);
+    text-align: left;
+    top: 22%;
   }
+}
 
+@media screen and (min-width: 700px) {
   .HeroSection .heroText div:nth-child(1) {
-    font-size: 100px;
+    font-size: 2.8rem;
   }
   
   .HeroSection .heroText div:nth-child(2) {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 40px;
-    margin-bottom: 50px;
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 1800px) {
-  .HeroSection .heroText {
-    left: 150px;
-    width: calc(100% - 150px);
-  }
-
+@media screen and (min-width: 1000px) {
   .HeroSection .heroText div:nth-child(1) {
-    font-size: 65px;
-    margin-bottom: 25px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 32px;
-    margin-bottom: 5px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 32px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .HeroSection .heroText {
-    left: 100px;
-    width: calc(100% - 200px);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .HeroSection .heroText {
-    left: 50px;
-    width: calc(100% - 100px);
-    top: 25%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .HeroSection .heroText {
-    left: 50px;
-    width: calc(100% - 100px);
-    top: 20%;
-  }
-
-  .HeroSection .heroText div:nth-child(1) {
-    font-size: 50px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 25px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 625px) {
-  .HeroSection .heroText div:nth-child(1) {
-    font-size: 45px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 22px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 22px;
-  }
-}
-
-@media screen and (max-width: 425px){
-  .HeroSection .heroText {
-    left: 30px;
-    width: calc(100% - 60px);
-    text-align: center;
-  }
-
-  .HeroSection .heroText div:nth-child(1) {
-    font-size: 44px;
-    margin-bottom: 40px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 20px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 375px){
-  .HeroSection .heroText div:nth-child(1) {
-    font-size: 40px;
-    margin-bottom: 40px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 20px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .HeroSection .heroText div:nth-child(1) {
-    font-size: 34px;
-  }
-  
-  .HeroSection .heroText div:nth-child(2) {
-    font-size: 18px;
-  }
-  
-  .HeroSection .heroText div:nth-child(3) {
-    font-size: 18px;
+    font-size: 3rem;
   }
 }

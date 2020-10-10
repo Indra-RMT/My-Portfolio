@@ -256,8 +256,13 @@ const works = [
   },
 ];
 
-const getFirtsThreeWorks = (works) => {
-  return works.slice(0, 3);
+const getThreeMailWorks = (works) => {
+  const listMainWorks = [
+    'Mutiara Mutu Sertifikasi training registration',
+    'LoveEat',
+    'Social Media Intelligent Sentiment Analysist'
+  ];
+  return works.filter(work => listMainWorks.includes(work.title));
 }
 
 const ThumbnailWorks = (props) => {
@@ -269,12 +274,12 @@ const ThumbnailWorks = (props) => {
     });
   }
 
-  const firstSixWorks = getFirtsThreeWorks(works);
+  const threeMainWorks = getThreeMailWorks(works);
 
   return (
   <div className={classes.ThumbnailWorks}>
     <ul className={classes.thumbnailContainer}>
-      {firstSixWorks.map(work => (
+      {threeMainWorks.map(work => (
         <li className={classes.wrapper}
         key={work.id}
         >

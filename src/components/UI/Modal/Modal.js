@@ -26,23 +26,34 @@ class Modal extends Component {
     if(this.props.show){
       document.body.style.overflow = 'hidden';
 
-      let url = <a href={allProps.url} target="_blank" rel="noopener noreferrer">{allProps.url}</a>;
-      if(allProps.url === null){
-        url = '-';
-      }
-
-      let githubUrl = <a href={allProps.githubUrl} target="_blank" rel="noopener noreferrer">{allProps.githubUrl}</a>;
-      if(allProps.githubUrl === null){
-        githubUrl = '-';
-      }
-
       let listTechnology = [];
       allProps.technologies.forEach(tech => {
         listTechnology.push(<li key={tech}>{tech}</li>);
       });
 
-      let description = allProps.description;
-      description = (description === null) ? "-" : description;
+      const url =
+        <div className={classes.webDetail}>
+          <div className={classes.labelDetail}>
+            URL :
+          </div>
+          <div className={classes.contentDetail}>
+            <a href={allProps.url} target="_blank" rel="noopener noreferrer">{allProps.url}</a>
+          </div>
+        </div>
+
+      const urlElement = (allProps.url === null) ? "" : url;
+
+      const githubUrl =
+        <div className={classes.webDetail}>
+          <div className={classes.labelDetail}>
+            Github :
+          </div>
+          <div className={classes.contentDetail}>
+            <a href={allProps.githubUrl} target="_blank" rel="noopener noreferrer">{allProps.githubUrl}</a>
+          </div>
+        </div>
+
+      const githubUrlElement = (allProps.githubUrl === null) ? "" : githubUrl;
 
       toRender = 
       <Aux>
@@ -76,25 +87,11 @@ class Modal extends Component {
                   Description :
                 </div>
                 <div className={classes.contentDetail}>
-                  {description}  
+                  {allProps.description}  
                 </div>
               </div>
-              <div className={classes.webDetail}>
-                <div className={classes.labelDetail}>
-                  URL :
-                </div>
-                <div className={classes.contentDetail}>
-                  {url}
-                </div>
-              </div>
-              <div className={classes.webDetail}>
-                <div className={classes.labelDetail}>
-                  Github :
-                </div>
-                <div className={classes.contentDetail}>
-                  {githubUrl}
-                </div>
-              </div>
+              {urlElement}
+              {githubUrlElement}
             </div>
           </div>
         </div>

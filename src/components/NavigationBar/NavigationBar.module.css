@@ -3,7 +3,6 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
 }
 
 .NavigationBar {
@@ -30,6 +29,10 @@
   background-color: transparent; 
   height: 55px;
   width: 100%;
+}
+
+.NavigationBar .pageContainer {
+  padding: 0;
 }
 
 .NavigationBar label.logo {
@@ -102,7 +105,7 @@
   }
 }
 
-@media (max-width: 648px) {
+@media (max-width: 647px) {
   .NavigationBar label.logo {
     font-size: 26px;
   }
