@@ -1,46 +1,17 @@
 .PageContainer {
-  margin-left: 150px;
-  margin-right: 150px;
+  padding: 0 15px;
 }
 
-@media screen and (min-width: 1801px) {
+@media screen and (min-width: 648px) {
   .PageContainer {
-    margin-left: calc(300px - 1.5rem);
-    margin-right: calc(300px - 1.5rem);
+    padding: 0 50px;
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1025px) {
   .PageContainer {
-    margin-left: calc(150px - 1.5rem);
-    margin-right: calc(150px - 1.5rem);
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .PageContainer {
-    margin-left: calc(100px - 1.5rem);
-    margin-right: calc(100px - 1.5rem);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .PageContainer {
-    margin-left: calc(50px - 1.5rem);
-    margin-right: calc(50px - 1.5rem);
-  }
-}
-
-@media screen and (max-width: 648px) {
-  .PageContainer {
-    margin-left: calc(20px - 1.5rem);
-    margin-right: calc(20px - 1.5rem);
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .PageContainer {
-    margin-left: calc(15px - 1.5rem);
-    margin-right: calc(15px - 1.5rem);
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1050px;
   }
 }

@@ -7,9 +7,6 @@
 }
 
 .NavigationBar {
-  /* -webkit-box-shadow: 0px 5px 1px 1px rgba(36, 41, 46, 1);
-  -moz-box-shadow: 0px 5px 1px 1px rgba(36, 41, 46, 1);
-  box-shadow: 0px 5px 1px 1px rgba(36, 41, 46, 1); */
   position: fixed;
   width: 100%;
   top: 0;
@@ -39,23 +36,18 @@
   color: white;
   font-size: 30px;
   line-height: 57px;
-  padding: 0 100px;
   font-weight: bold;
 }
 
 .NavigationBar nav ul {
   float: right;
-  margin-right: 20px;
+  margin: 0 -10px;
 }
 
 .NavigationBar nav ul li {
   display: inline-block;
   line-height: 59px;
   margin: 0 10px;
-}
-
-.NavigationBar nav ul li:nth-last-child(1) {
-  margin-right: 70px;
 }
 
 .NavigationBar nav ul li a,
@@ -90,7 +82,6 @@
   color: white;
   float: right;
   line-height: 64px;
-  margin-right: 40px;
   cursor: pointer;
   display: none;
 }
@@ -100,37 +91,9 @@
   display: none;
 }
 
-@media screen and (min-width: 1800px) {
-  .NavigationBar label.logo {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-
-  .NavigationBar nav ul li:nth-last-child(1) {
-    margin-right: 266px;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .NavigationBar label.logo {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .NavigationBar nav ul li:nth-last-child(1) {
-    margin-right: 66px;
-  }
-}
-
 @media (max-width: 1024px) {
   .NavigationBar label.logo {
     font-size: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .NavigationBar nav ul li:nth-last-child(1) {
-    margin-right: 20px;
   }
 
   .NavigationBar nav ul li a,
@@ -142,12 +105,6 @@
 @media (max-width: 648px) {
   .NavigationBar label.logo {
     font-size: 26px;
-    padding-left: 17px;
-    padding-right: 30px;
-  }
-
-  .NavigationBar nav ul li:nth-last-child(1) {
-    margin-right: -13px;
   }
 }
 
@@ -155,7 +112,6 @@
   .NavigationBar label.checkBtn {
     font-size: 26px;
     line-height: 55px;
-    margin-right: 20px;
     display: block;
   }
 
@@ -201,16 +157,5 @@
 
   .NavigationBar nav ul li:nth-last-child(1) {
     margin: auto;
-  }
-}
-
-@media (max-width: 375px) {
-  .NavigationBar label.logo {
-    padding-left: 15px;
-    padding-right: 20px;
-  }
-
-  .NavigationBar label.checkBtn {
-    margin-right: 15px;
   }
 }

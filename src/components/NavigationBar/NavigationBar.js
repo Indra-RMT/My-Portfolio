@@ -4,6 +4,7 @@ import classes from './NavigationBar.module.css';
 
 import { Link as ScrollLink } from "react-scroll";
 import { withRouter } from 'react-router-dom';
+import PageContainer from '../UI/PageContainer/PageContainer';
 
 class NavigationBar extends Component {
   state = {
@@ -70,12 +71,14 @@ class NavigationBar extends Component {
     return (
       <div className={[classes.NavigationBar, topNav].join(' ')}>
         <nav>
-          <input type="checkbox" id="check" className={classes.check} />
-          <label htmlFor="check" className={classes.checkBtn}>
-            <i className="fa fa-bars" />
-          </label>
-            <label className={classes.logo}>{this.state.logo}</label>
-            {navigationMenu}          
+          <PageContainer>
+            <input type="checkbox" id="check" className={classes.check} />
+            <label htmlFor="check" className={classes.checkBtn}>
+              <i className="fa fa-bars" />
+            </label>
+              <label className={classes.logo}>{this.state.logo}</label>
+              {navigationMenu}    
+          </PageContainer>
         </nav>
       </div>
     );

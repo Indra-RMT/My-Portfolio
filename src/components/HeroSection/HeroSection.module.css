@@ -31,7 +31,7 @@
 @media screen and (min-width: 1081px) {
   .HeroSection .heroText {
     left: 300px;
-    width: calc(100vw - 600px);
+    width: calc(100% - 600px);
   }
 
   .HeroSection .heroText div:nth-child(1) {
@@ -52,7 +52,7 @@
 @media screen and (max-width: 1800px) {
   .HeroSection .heroText {
     left: 150px;
-    width: calc(100vw - 150px);
+    width: calc(100% - 150px);
   }
 
   .HeroSection .heroText div:nth-child(1) {
@@ -74,14 +74,14 @@
 @media screen and (max-width: 1440px) {
   .HeroSection .heroText {
     left: 100px;
-    width: calc(100vw - 200px);
+    width: calc(100% - 200px);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .HeroSection .heroText {
     left: 50px;
-    width: calc(100vw - 100px);
+    width: calc(100% - 100px);
     top: 25%;
   }
 }
@@ -89,7 +89,7 @@
 @media screen and (max-width: 800px) {
   .HeroSection .heroText {
     left: 50px;
-    width: calc(100vw - 100px);
+    width: calc(100% - 100px);
     top: 20%;
   }
 
@@ -125,7 +125,7 @@
 @media screen and (max-width: 425px){
   .HeroSection .heroText {
     left: 30px;
-    width: calc(100vw - 60px);
+    width: calc(100% - 60px);
     text-align: center;
   }
 

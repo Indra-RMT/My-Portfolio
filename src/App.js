@@ -27,6 +27,16 @@ class App extends Component {
 
     window.onscroll = () => scrollFunction();
 
+    var maxWidth = document.documentElement.offsetWidth;
+    [].forEach.call(
+      document.querySelectorAll('*'),
+      function(el) {
+        if (el.offsetWidth > maxWidth) {
+          console.log(el);
+        }
+      }
+    );
+
     return (
       <ScrollToTop>
         <NavigationBar 

@@ -10,8 +10,9 @@
 }
 
 .AllWork .works {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
   list-style: none;
   margin: 0;
   padding: 50px 0;
@@ -23,7 +24,6 @@
 
 .AllWork .wrapper {
   display: flex;
-  padding: 1.5rem;
 }
 
 .AllWork .button {
@@ -65,14 +65,14 @@
 }
 
 @media screen and (min-width: 500px) {
-  .AllWork .wrapper {
-    width: 50%;
+  .AllWork .works {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .AllWork .wrapper {
-    width: 33.3333%;
+  .AllWork .works {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

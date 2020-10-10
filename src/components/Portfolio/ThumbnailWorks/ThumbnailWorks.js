@@ -2,7 +2,6 @@ import React from 'react';
 
 import classes from './ThumbnailWorks.module.css';
 import ThumbnailWork from './ThumbnailWork/ThumbnailWork';
-import Aux from '../../../hoc/Aux/Aux';
 import { withRouter } from 'react-router';
 
 const works = [
@@ -267,8 +266,8 @@ const ThumbnailWorks = (props) => {
   const firstSixWorks = getFirtsThreeWorks(works);
 
   return (
-  <Aux>
-    <ul className={classes.ThumbnailWorks}>
+  <div className={classes.ThumbnailWorks}>
+    <ul className={classes.thumbnailContainer}>
       {firstSixWorks.map(work => (
         <li className={classes.wrapper}
         key={work.id}
@@ -280,14 +279,14 @@ const ThumbnailWorks = (props) => {
           </ThumbnailWork>
         </li>
       ))}
-      <div className={classes.buttonMore}>
-        <div className={classes.button}
-          onClick={() => workDetailSelectedHandler()}>
-          See More <i className={['fa fa-arrow-right', classes.fontAwesome].join(' ')}></i>
-        </div>
-      </div>
     </ul>
-  </Aux>
+    <div className={classes.buttonMore}>
+      <div className={classes.button}
+        onClick={() => workDetailSelectedHandler()}>
+        See More <i className={['fa fa-arrow-right', classes.fontAwesome].join(' ')}></i>
+      </div>
+    </div>
+  </div>
   )
 }
 

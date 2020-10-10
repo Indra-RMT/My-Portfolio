@@ -1,25 +1,30 @@
-.ThumbnailWorks *,
-.ThumbnailWorks *::before,
-.ThumbnailWorks *::after { 
-  box-sizing: border-box;
-}
-
 .ThumbnailWorks {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
   margin: -10px 0 20px 0;
   padding: 0 0 50px 0;
 }
 
+.ThumbnailWorks .thumbnailContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
 .ThumbnailWorks .wrapper {
+  grid-auto-rows: 1fr;
+}
+
+.ThumbnailWorks .buttonMore {
+  padding-top: 10px;
   display: flex;
-  padding: 1.5rem;
+  justify-content: flex-end
 }
 
 .ThumbnailWorks .button {
   cursor: pointer;
   color: #272727;
+  display: inline;
 }
 
 .ThumbnailWorks .button:hover {
@@ -31,17 +36,13 @@
 }
 
 @media screen and (min-width: 500px) {
-  .ThumbnailWorks .wrapper {
-    width: 50%;
+  .ThumbnailWorks .thumbnailContainer{
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .ThumbnailWorks .wrapper {
-    width: 33.3333%;
+  .ThumbnailWorks .thumbnailContainer{
+    grid-template-columns: 1fr 1fr 1fr;
   }
-}
-
-.ThumbnailWorks .buttonMore {
-  margin: 1rem 1rem 0 auto;
 }
