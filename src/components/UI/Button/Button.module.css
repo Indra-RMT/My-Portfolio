@@ -4,16 +4,18 @@
   padding: 7px 20px;
   border-radius: 5px;
   border: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 17px;
   /* text-transform: uppercase; */
   outline-width: 0;
-  border: 3px solid #808080;
+  border: 3px solid #ffffff;
+  font-weight: 600;
 }
 
 .Success {
   /* background-color: #1D6EB6; */
   background-color: transparent;
+  background-color: #ffffff;
 }
 
 .Danger {
@@ -21,9 +23,10 @@
 }
 
 .Button:hover {
-  border: 3px solid #1D6EB6;
+  border: 3px solid #ffffff;
   transition: .5s;
-  background-color: #383838;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 1801px) {

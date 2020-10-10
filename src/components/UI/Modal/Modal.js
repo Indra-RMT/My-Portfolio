@@ -40,7 +40,10 @@ class Modal extends Component {
       allProps.technologies.forEach(tech => {
         listTechnology.push(<li key={tech}>{tech}</li>);
       });
-      
+
+      let description = allProps.description;
+      description = (description === null) ? "-" : description;
+
       toRender = 
       <Aux>
         <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
@@ -73,7 +76,7 @@ class Modal extends Component {
                   Description :
                 </div>
                 <div className={classes.contentDetail}>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                  {description}  
                 </div>
               </div>
               <div className={classes.webDetail}>

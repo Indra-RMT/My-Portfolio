@@ -24,7 +24,7 @@ const works = [
       'MySql',
       'Bootstrap'
     ],
-    description: 'Adalah website untuk melakukan pendaftaran peserta pelatihan k3, melakukan konfirmasi pembayaran pelatihan dan melihat nomor sertifikat yang telah didapatkan oleh peserta sekaligus sebagai company profile. Website ini juga dilengkapi dengan halaman admin yang digunakan administrator untuk mengatur isi konten dan melakukan konfirmasi setiap pendaftar yang telah melakukan konfirmasi pembayaran. Hingga saat ini sudah terdapat lebih dari 3200 orang peserta yang mendaftar melalui website ini',
+    description: 'Pada projek pembuatan website ini saya diberi tugas untuk membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan kofirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
     startBuild: 'Agustus 2019',
   },
   { 
@@ -45,7 +45,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Website yang digunakan oleh manager untuk melakukan pencatatan data karyawan yang diantaranya adalah id, nama, job level, dan position title. Pada wesite ini juga dilengkapi fitur pencatatan skill kompetensi yang dimiliki oleh setiap karyawan',
+    description: 'WebApp ini merupakan projek kedua PT Givaudan yang dipercayakan kepada saya, saya membangun sebuah webapp yang dapat melakukan pencatatan data karyawan dan pencatatan hasil training setiap karyawan PT Givaudan.',
     startBuild: 'April 2020',
   },
   {
@@ -66,7 +66,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Fitur utaman dalam website ini adalah melakukan pencatatan setiap bahan baku industri yang telah dipesan PT Givaudan Indonesia, selain itu fitur website ini adalah membuat surat jalan dan reporting',
+    description: 'Pembuatan WebApp ini merupakan project yang diberikan dosen saya kepada saya saat setelah sidang skripsi, Saya dipercaya untuk membuat WebApp yang digunakan untuk pencatatan data impor bahan baku industri pada PT Givaudan. Selain pencatatan data, WebApp ini juga terdapat fitur laporan, pencetakan surat guna barang, dan terdapat visualisasi data untuk melihat kecepatan alur proses impor apakah sudah sesuai target atau belum.',
     startBuild: 'Maret 2020'
   },
   { 
@@ -89,7 +89,7 @@ const works = [
       'Twitter API',
       'Machine Learning'
     ],
-    description: 'WebApp menerapkan Machine Learning, digunakan untuk melakukan Analisis Sentimen (positif, netral, negatif) pada suatu topik terhadap cuitan-cuitan netizen yang ada di Twitter. Proses berjalannya web app ini yaitu pengambilan data melalui API twitter -> text preprocessing (cleansing, case folding, tokenizing, convert slangword, negation handling, remove stopword, dan stemming) -> Klasifikasi menggunakan Algoritma Naive Bayes Classifier.',
+    description: 'Website ini merupakan bagian dari Skripsi saya. Pada website ini saya membuat sebuah web yang dapat digunakan untuk melakukan analisis sentimen. Saya membuat website ini menggunakan bahasa pemrograman PHP dan agoritma Naive Bayes Classifier. Wesite ini dapat menentukan apakah sebuah kalimat merupakan kalimat yang mengandung sentimen Positif, Negatif, ataupun Netral.',
     startBuild: 'September 2019',
   },
   { 
@@ -112,8 +112,8 @@ const works = [
       'Karma.js',
       'End to end Testing',
     ],
-    description: 'Website yang dibuat untuk menampilkan data covid terkini dari seluruh dunia, data diambil menggunakan Fetch API dan ditampilkan ke dalam sebuah Singgle Web Page yang responsive di semua perangkat serta menggunakan webpack sebagai module bundler agar website dapat diakses melalui beragam browser terkini maupun browser lawas',
-    startBuild: '-',
+    description: 'Website ini merupakan web Submission kelas akhir jalur Front-End Web Developer di Dicoding Indonesia. Website ini dibuat berdasarkan kebutuhan industri pada bidang front-end saat ini, yang saya terapkan pada website ini diantaranya adalah, Mobile First Approach, Web Accessibility, Clean Code, PWA, Testing, dan pengoptimalan Web Performance',
+    startBuild: 'September 2020',
   },
   { 
     id: 6,
@@ -132,8 +132,8 @@ const works = [
       'Fetch API',
       'Webpack'
     ],
-    description: 'Website yang dibuat untuk menampilkan data covid terkini dari seluruh dunia, data diambil menggunakan Fetch API dan ditampilkan ke dalam sebuah Singgle Web Page yang responsive di semua perangkat serta menggunakan webpack sebagai module bundler agar website dapat diakses melalui beragam browser terkini maupun browser lawas',
-    startBuild: '-',
+    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah SPA asynchronous yang menampilkan perkembangan data covid dari seluruh dunia.',
+    startBuild: 'May 2020',
   },
   { 
     id: 7,
@@ -151,7 +151,7 @@ const works = [
       'PHP',
       'MySql'
     ],
-    description: '',
+    description: 'Website ini merupakan website untuk keperluan Penulisan Ilmiah saya, website ini dapat digunakan pengguna untuk melakukan pemesanan bibit tanaman yang ada pada sebuah toko tanaman. Fitur yang ada pada website ini termasuk dasar yaitu menampiklan produk, keranjangg belanja, konfirmasi pembayaran dan status pembayaran.',
     startBuild: 'April 2018',
   },
   { 
@@ -172,7 +172,7 @@ const works = [
       'MySql',
       'BootStrap'
     ],
-    description: 'Website untuk managemen parkir kendaraan bermotor, didalamnya terdapat input kendaraan masuk dan kendaraan keluar oleh petugas yang selanjutnya menampilkan struk pembayaran kendaraan yang keluar. Terdapat laporan harian hingga bulanan total kendaraan yang terparkir',
+    description: 'Website yang saya buat untuk teman saya yang sedang mengerjakan penulisan ilmiahnya di semester 6, pada website ini terdapat fitur input keluar masuk kendaraan, laporan keuangan, manajemen karyawan, dan mengubah tarif parkir.',
     startBuild: 'Desember 2018',
   },
   { 
@@ -192,29 +192,11 @@ const works = [
       'Google Apps Script',
       'Google Spread Sheet'
     ],
-    description: 'Website yang digunakan untuk mengirim email pemberitahuan ataupun promosi secara broadcast kepada seluruh alumni peserta pelatihan di PT mutiara mutu sertifikasi, Email yang dikirim berhasil masuk ke kotak masuk utama penerima, tanpa diklasifikasi sebagai spam atau iklan oleh sistem google',
+    description: 'Website ini saya bangun untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis',
     startBuild: 'Juli 2020'
   },
   { 
     id: 10,
-    category: 'Submission at Dicoding',
-    title: 'Pengenalan UI',
-    urlThumbnailPhoto: 'Pengenalan-UI-01.png',
-    image1: 'Pengenalan-UI-02.png',
-    image2: 'Pengenalan-UI-03.png',
-    image3: 'Pengenalan-UI-04.png',
-    url: 'https://pengenalan-ui.netlify.app/',
-    githubUrl: 'https://github.com/Indra-RMT/Pengenalan-UI',
-    technologies: [
-      'HTML', 
-      'CSS',
-      'JavaScript',
-      'Materialize CSS',
-      'Progressive Web Apps'
-    ]
-  },
-  { 
-    id: 11,
     category: 'Submission at Dicoding',
     title: 'EPL Football Standings',
     urlThumbnailPhoto: 'Football-Lite-01.png',
@@ -230,7 +212,29 @@ const works = [
       'Fetch API',
       'Materialize CSS',
       'Progressive Web Apps'
-    ]
+    ],
+    description: 'Membuat sebuah tampilan pertandingan sepakbola secara dinamis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homesreen smartphone, mengirimkan notifikasi, dan dapat menyimpan klub favorite kedalam IndexedDB.',
+    startBuild: 'Juni 2020'
+  },
+  { 
+    id: 11,
+    category: 'Submission at Dicoding',
+    title: 'Pengenalan UI',
+    urlThumbnailPhoto: 'Pengenalan-UI-01.png',
+    image1: 'Pengenalan-UI-02.png',
+    image2: 'Pengenalan-UI-03.png',
+    image3: 'Pengenalan-UI-04.png',
+    url: 'https://pengenalan-ui.netlify.app/',
+    githubUrl: 'https://github.com/Indra-RMT/Pengenalan-UI',
+    technologies: [
+      'HTML', 
+      'CSS',
+      'JavaScript',
+      'Materialize CSS',
+      'Progressive Web Apps'
+    ],
+    description: 'Membuat sebuah tampilan website statis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homesreen smartphone layaknya aplikasi native.',
+    startBuild: 'Juni 2020'
   },
   { 
     id: 12,
@@ -246,7 +250,9 @@ const works = [
       'HTML', 
       'CSS',
       'JavaScript'
-    ]
+    ],
+    description: 'Sumbmission pertama saya pada Dicoding, membuat sebuah tampilan website sederhana yang menerapkan semantic tag dan tampilan yang responsive pada berbagai perangkat, baik itu mobile, tablet ataupun desktop.',
+    startBuild: 'april 2020'
   },
 ];
 
