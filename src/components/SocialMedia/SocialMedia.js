@@ -4,7 +4,7 @@ import classes from './SocialMedia.module.css';
 
 const urlSocials = [
   {social: 'github', url: 'https://github.com/Indra-RMT'},
-  {social: 'linkedin', url: 'https://id.linkedin.com/'},
+  {social: 'linkedin', url: 'https://www.linkedin.com/in/indra-rahmanto/'},
   {social: 'dicoding', url: 'https://www.dicoding.com/users/771761/academies'}
 ];
 
