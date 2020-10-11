@@ -97,9 +97,9 @@ const works = [
     category: 'Submission at Dicoding',
     title: 'LoveEat',
     urlThumbnailPhoto: 'LoveEat-01.png',
-    image1: null,
-    image2: null,
-    image3: null,
+    image1: 'LoveEat-02.png',
+    image2: 'LoveEat-03.png',
+    image3: 'LoveEat-04.png',
     url: 'https://love-eat.netlify.app/',
     githubUrl: 'https://github.com/Indra-RMT/Love-Eat',
     technologies: [
