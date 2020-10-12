@@ -1,0 +1,23 @@
+.Alert {
+  background-color: #E2E3E5;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.Alert .logo {
+  padding: 7px 12px;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(197, 134, 255);
+}
+
+.Alert .text {
+  margin: 7px 10px 7px 15px;
+}
+
+.Alert .close {
+  margin: 3px 6px;
+  padding: 4px;
+  margin-left: auto;
+  cursor: pointer;
+}

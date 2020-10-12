@@ -2,6 +2,10 @@
   margin-bottom: 20px;
 }
 
+.FormTextarea.error {
+  margin-bottom: 10px;
+}
+
 .FormTextarea .label {
   width: 100%;
   margin: 0 auto 5px 5px; 
@@ -44,9 +48,24 @@
   box-shadow: 2px 1px 5px 0px rgba(255, 255, 255, 0.2);
 }
 
-.FormTextarea.white textarea:focus {
+.FormTextarea.white textarea:focus,
+.FormTextarea.white.error textarea:focus  {
   border: 1px solid #70ade2;
   -webkit-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
   -moz-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
   box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
+}
+
+.FormTextarea.white.error textarea {
+  border: 1px solid #ff9898;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+  box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+}
+
+.FormTextarea .labelError {
+  color: #ff9898;
+  margin-left: 5px;
+  font-size: .8rem;
+  margin-bottom: -10px;
 }

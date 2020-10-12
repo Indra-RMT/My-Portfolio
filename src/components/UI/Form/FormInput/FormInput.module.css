@@ -2,6 +2,10 @@
   margin-bottom: 20px;
 }
 
+.FormInput.error {
+  margin-bottom: 10px;
+}
+
 .FormInput .label {
   width: 100%;
   margin: 0 auto 5px 5px; 
@@ -42,11 +46,26 @@
   box-shadow: 2px 1px 5px 0px rgba(255, 255, 255, 0.2);
 }
 
-.FormInput.white input:focus {
+.FormInput.white input:focus,
+.FormInput.white.error input:focus {
   border: 1px solid #70ade2;
   -webkit-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
   -moz-box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
   box-shadow: 0px 0px 10px 1px rgba(230,14,230,1);
+}
+
+.FormInput.white.error input {
+  border: 1px solid #ff9898;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+  box-shadow: 0px 0px 10px 1px rgba(255, 152, 152, .4);
+}
+
+.FormInput .labelError {
+  color: #ff9898;
+  margin-left: 5px;
+  font-size: .8rem;
+  margin-bottom: -10px;
 }
 
 @media screen and (min-width: 1801px) {

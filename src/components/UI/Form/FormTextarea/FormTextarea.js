@@ -9,8 +9,21 @@ const FormTextarea = (props) => {
     classNameColor = classes.white;
   }
 
+  let classError = classes.error;
+  let label = (
+      <label className={classes.labelError}>
+        <i className={['fa fa-exclamation-circle', classes.fontAwesome].join(' ')}></i>
+        &nbsp;
+        {props.state.invalidMessage}
+      </label>
+    )
+  if (props.state.valid) {
+    label = '';
+    classError = '';
+  }
+
   return (
-  <div className={[classes.FormTextarea, classNameColor].join(' ')}>
+  <div className={[classes.FormTextarea, classNameColor, classError].join(' ')}>
     <div 
       className={classes.label}>
       {props.label}
@@ -19,6 +32,7 @@ const FormTextarea = (props) => {
       rows="4"
       type="text"
       onChange={props.changed} />
+    {label}
   </div>
   )
 };
