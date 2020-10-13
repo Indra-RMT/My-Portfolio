@@ -8,8 +8,8 @@ import SelectCategory from '../UI/SelectCategory/SelectCategory';
 
 class AllWork extends Component {
   state = {
-    selectedCategory: 'Freelance',
-    category: ['Freelance', 'Submission at Dicoding', 'Campus Project'],
+    selectedCategory: 'Submission at Dicoding',
+    category: ['Submission at Dicoding', 'Freelance', 'Campus Project'],
   }
 
   render () {
@@ -28,9 +28,7 @@ class AllWork extends Component {
     const worksByCategory = filterCategory(works, this.state.selectedCategory);
 
     const categoryClickHandler = (category) => {
-      console.log(category);
       this.setState({selectedCategory: category});
-      console.log(this.state);
     };
 
     return (

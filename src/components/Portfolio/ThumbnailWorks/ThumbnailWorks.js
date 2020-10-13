@@ -31,10 +31,10 @@ const works = [
     id: 2,
     category: 'Freelance',
     title: 'Givaudan employee data collection',
-    urlThumbnailPhoto: 'Employee-Data-01.png',
-    image1: 'Employee-Data-02.png',
-    image2: 'Employee-Data-03.png',
-    image3: 'Employee-Data-04.png',
+    urlThumbnailPhoto: 'Employee-Data-01-.png',
+    image1: 'Employee-Data-02.png-',
+    image2: 'Employee-Data-03.png-',
+    image3: 'Employee-Data-04.png-',
     url: null,
     githubUrl: null,
     technologies: [
@@ -52,10 +52,10 @@ const works = [
     id: 3,
     category: 'Freelance',
     title: 'Givaudan import shipping data collection',
-    urlThumbnailPhoto: 'Givaudan-Import-01.png',
-    image1: 'Givaudan-Import-02.png',
-    image2: 'Givaudan-Import-03.png',
-    image3: 'Givaudan-Import-04.png',
+    urlThumbnailPhoto: 'Givaudan-Import-01-.png',
+    image1: 'Givaudan-Import-02-.png',
+    image2: 'Givaudan-Import-03-.png',
+    image3: 'Givaudan-Import-04-.png',
     url: null,
     githubUrl: null,
     technologies: [
@@ -258,8 +258,8 @@ const works = [
 
 const getThreeMailWorks = (works) => {
   const listMainWorks = [
-    'Mutiara Mutu Sertifikasi training registration',
     'LoveEat',
+    'Mutiara Mutu Sertifikasi training registration',
     'Social Media Intelligent Sentiment Analysist'
   ];
   return works.filter(work => listMainWorks.includes(work.title));
@@ -274,12 +274,17 @@ const ThumbnailWorks = (props) => {
     });
   }
 
+  const orderingMainWorks = (threeMainWorks) => {
+    return [threeMainWorks[2], threeMainWorks[0], threeMainWorks[1]];
+  }
+
   const threeMainWorks = getThreeMailWorks(works);
+  const orderedMainWorks = orderingMainWorks(threeMainWorks);
 
   return (
   <div className={classes.ThumbnailWorks}>
     <ul className={classes.thumbnailContainer}>
-      {threeMainWorks.map(work => (
+      {orderedMainWorks.map(work => (
         <li className={classes.wrapper}
         key={work.id}
         >

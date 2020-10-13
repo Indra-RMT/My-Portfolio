@@ -21,7 +21,6 @@ class ThumbnailWork extends Component {
   }
 
   openModalWork = (props) => {
-    console.log(props)
     this.setState({showModal: true});
     this.setState({openWork: props});
     document.addEventListener("keydown", this.escModal);

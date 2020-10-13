@@ -8,14 +8,9 @@ import PageContainer from '../UI/PageContainer/PageContainer';
 
 class NavigationBar extends Component {
   state = {
-    logo: 'WebDev',
+    logo: 'webDev',
     isTop: true
   }
-
-  // shouldComponentUpdate ( nextProps, nextState ) {
-  //   console.log(nextProps.isTop);
-  //   return nextProps.isTop !== this.props.isTop;
-  // }
   
   render(){
     const backToHomeSelectedHandler = () => {

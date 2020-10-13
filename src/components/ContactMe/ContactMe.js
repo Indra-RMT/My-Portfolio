@@ -183,10 +183,10 @@ const ContactMe = (props) => {
     }
     axios.post('/messages.json', message)
       .then(response => {
-        console.log(response);
         setLoadingTo(false);
+        clearForm();
       })
-      .catch(error => console.log(error));
+      .catch();
   }
 
   const sendButtonClickHandler = () => {
@@ -195,15 +195,25 @@ const ContactMe = (props) => {
     if (isAllFormValid(forms)) {
       saveMessageToDb();
       setLoadingTo(true);
-      clearForm();
     }
+  }
+
+  const closeAlertHandler = () => {
+    const alert = alertState.alert;
+    alert.isShow = false;
+
+    let alertCopy = alertState.alert;
+    alertCopy = alert;
+
+    setAlertState({alert: alertCopy});
   }
 
   const alert = {...alertState.alert}
   let formAlert;
   if (alert.isShow) {
     formAlert =
-      <Alert>
+      <Alert
+      closeButtonClicked={() => closeAlertHandler()}>
         Message has been sent.
       </Alert>
   }
@@ -218,8 +228,6 @@ const ContactMe = (props) => {
     buttonSend = 
       <Spinner/>
   }
-
-  console.log(loadingState)
 
   return (
     <div className={classes.ContactMe}
