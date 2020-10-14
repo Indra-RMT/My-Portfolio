@@ -45,7 +45,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'WebApp ini merupakan projek kedua PT Givaudan yang dipercayakan kepada saya, saya membangun sebuah webapp yang dapat melakukan pencatatan data karyawan dan pencatatan hasil training setiap karyawan PT Givaudan.',
+    description: 'Merupakan projek kedua PT Givaudan yang diberikan kepada saya, Web app ini dibuat menggunakan bahasa JavaScript di platform Google Apps Script dan database SpreadSheet. Web App ini mempunyai fitur pencatatan data karyawan dan pencatatan hasil kompetensi training setiap karyawan PT Givaudan.',
     startBuild: 'April 2020',
   },
   {
@@ -66,7 +66,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Pembuatan WebApp ini merupakan project yang diberikan dosen saya kepada saya saat setelah sidang skripsi, Saya dipercaya untuk membuat WebApp yang digunakan untuk pencatatan data impor bahan baku industri pada PT Givaudan. Selain pencatatan data, WebApp ini juga terdapat fitur laporan, pencetakan surat guna barang, dan terdapat visualisasi data untuk melihat kecepatan alur proses impor apakah sudah sesuai target atau belum.',
+    description: 'Merupakan project yang diberikan dosen saya kepada saya setelah sidang skripsi, web app ini memiliki fitur pencatatan data impor bahan baku industri pada PT Givaudan. Selain pencatatan data, WebApp ini juga terdapat fitur laporan, pencetakan surat guna barang, dan terdapat visualisasi data untuk melihat kecepatan alur proses impor apakah sudah sesuai target atau belum.',
     startBuild: 'Maret 2020'
   },
   { 
@@ -89,7 +89,7 @@ const works = [
       'Twitter API',
       'Machine Learning'
     ],
-    description: 'Website ini merupakan bagian dari Skripsi saya. Pada website ini saya membuat sebuah web yang dapat digunakan untuk melakukan analisis sentimen. Saya membuat website ini menggunakan bahasa pemrograman PHP dan agoritma Naive Bayes Classifier. Wesite ini dapat menentukan apakah sebuah kalimat merupakan kalimat yang mengandung sentimen Positif, Negatif, ataupun Netral.',
+    description: 'Merupakan bagian dari Skripsi saya. Pada website ini saya membuat sebuah web yang dapat digunakan untuk melakukan analisis sentimen. Saya membuat website ini menggunakan bahasa pemrograman PHP dan agoritma Naive Bayes Classifier. Wesite ini dapat menentukan apakah sebuah kalimat merupakan kalimat yang mengandung sentimen Positif, Negatif, ataupun Netral.',
     startBuild: 'September 2019',
   },
   { 
@@ -112,7 +112,7 @@ const works = [
       'Karma.js',
       'End to end Testing',
     ],
-    description: 'Website ini merupakan web Submission kelas akhir jalur Front-End Web Developer di Dicoding Indonesia. Website ini dibuat berdasarkan kebutuhan industri pada bidang front-end saat ini, yang saya terapkan pada website ini diantaranya adalah, Mobile First Approach, Web Accessibility, Clean Code, PWA, Testing, dan pengoptimalan Web Performance',
+    description: 'Merupakan web Submission kelas akhir jalur Front-End Web Developer di Dicoding Indonesia. Pada website ini saya membuat User Interface berdasarkan kriteria kebutuhan industri pada bidang front-end saat ini, yang saya terapkan pada website ini diantaranya adalah, Mobile First Approach, Web Accessibility, Clean Code, PWA, Testing, dan pengoptimalan Web Performance',
     startBuild: 'September 2020',
   },
   { 
@@ -132,7 +132,7 @@ const works = [
       'Fetch API',
       'Webpack'
     ],
-    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah SPA asynchronous yang menampilkan perkembangan data covid dari seluruh dunia.',
+    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah User Interface SPA asynchronous yang menampilkan perkembangan data covid dari seluruh dunia.',
     startBuild: 'May 2020',
   },
   { 
@@ -151,7 +151,7 @@ const works = [
       'PHP',
       'MySql'
     ],
-    description: 'Website ini merupakan website untuk keperluan Penulisan Ilmiah saya, website ini dapat digunakan pengguna untuk melakukan pemesanan bibit tanaman yang ada pada sebuah toko tanaman. Fitur yang ada pada website ini termasuk dasar yaitu menampiklan produk, keranjangg belanja, konfirmasi pembayaran dan status pembayaran.',
+    description: 'Merupakan website untuk keperluan Penulisan Ilmiah saya, website ini dapat digunakan pengguna untuk melakukan pemesanan bibit tanaman yang ada pada sebuah toko tanaman. Fitur yang ada pada website ini diantaranya yaitu menampiklan produk, keranjangg belanja, konfirmasi pembayaran dan status pembayaran.',
     startBuild: 'April 2018',
   },
   { 
@@ -172,7 +172,7 @@ const works = [
       'MySql',
       'BootStrap'
     ],
-    description: 'Website yang saya buat untuk teman saya yang sedang mengerjakan penulisan ilmiahnya di semester 6, pada website ini terdapat fitur input keluar masuk kendaraan, laporan keuangan, manajemen karyawan, dan mengubah tarif parkir.',
+    description: 'Merupakan website yang saya buat untuk teman saya yang sedang mengerjakan penulisan ilmiahnya di semester 6, pada website ini terdapat fitur input keluar masuk kendaraan, laporan keuangan, manajemen karyawan, dan mengubah tarif parkir.',
     startBuild: 'Desember 2018',
   },
   { 
@@ -188,11 +188,12 @@ const works = [
     technologies: [
       'HTML', 
       'CSS',
+      'Bootstrap',
       'JavaScript',
       'Google Apps Script',
       'Google Spread Sheet'
     ],
-    description: 'Website ini saya bangun untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis',
+    description: 'Website ini saya buat untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis.',
     startBuild: 'Juli 2020'
   },
   { 
