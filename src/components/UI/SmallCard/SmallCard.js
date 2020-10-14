@@ -15,7 +15,6 @@ class SmallCard extends Component {
   images = this.importAll(require.context('../../../assets/images/thumbnail-images', false, /\.(png|jpe?g|svg)$/));
 
   render () {
-    
     return (
       <div className={classes.SmallCard} onClick={this.props.buttonClickHandler}>
         <div className={classes.cardImage}>

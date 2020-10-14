@@ -43,6 +43,7 @@ class ThumbnailWork extends Component {
         </Modal>
         <SmallCard
           thumbnail={this.props.urlThumbnailPhoto}
+          thumbnailSmall={this.props.urlThumbnailPhotoSmall}
           title={this.props.title}
           id={this.props.id}
           buttonClickHandler={() => this.openModalWork(this.props)}
