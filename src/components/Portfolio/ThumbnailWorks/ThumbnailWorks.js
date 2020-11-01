@@ -24,7 +24,7 @@ const works = [
       'MySql',
       'Bootstrap'
     ],
-    description: 'Pada projek pembuatan website ini saya diberi tugas untuk membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan kofirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
+    description: 'Pada projek pembuatan website ini saya diberi tugas untuk membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan konfirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
     startBuild: 'Agustus 2019',
   },
   { 
@@ -143,7 +143,7 @@ const works = [
     image1: 'Nursuri-Plants-02.png',
     image2: 'Nursuri-Plants-03.png',
     image3: 'Nursuri-Plants-04.png',
-    url: null,
+    url: 'http://nursuri-plants.epizy.com/',
     githubUrl: null,
     technologies: [
       'HTML', 
@@ -214,7 +214,7 @@ const works = [
       'Materialize CSS',
       'Progressive Web Apps'
     ],
-    description: 'Membuat sebuah tampilan pertandingan sepakbola secara dinamis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homesreen smartphone, mengirimkan notifikasi, dan dapat menyimpan klub favorite kedalam IndexedDB.',
+    description: 'Membuat sebuah tampilan pertandingan sepakbola secara dinamis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homescreen smartphone, mengirimkan notifikasi, dan dapat menyimpan klub favorite.',
     startBuild: 'Juni 2020'
   },
   { 
