@@ -57,7 +57,8 @@
 
 .Modal .showDetail {
   width: 100%;
-  padding: 16px;
+  padding: 0 16px 10px 16px;
+  box-sizing: border-box;
 }
 
 .Modal .webDetail {
@@ -96,6 +97,10 @@
   .Modal .content > * + * {
     margin-left: 25px;
   }
+
+  .Modal .showDetail {
+    padding: 16px;
+  }  
 }
 
 @media screen and (max-width: 1440px) {
