@@ -24,7 +24,7 @@ const works = [
       'MySql',
       'Bootstrap'
     ],
-    description: 'Pada projek pembuatan website ini saya diberi tugas untuk membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan konfirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
+    description: 'Pada projek pembuatan website ini saya membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan konfirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
     startBuild: 'Agustus 2019',
   },
   { 
@@ -45,7 +45,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Merupakan projek kedua PT Givaudan yang diberikan kepada saya, Web app ini dibuat menggunakan bahasa JavaScript di platform Google Apps Script dan database SpreadSheet. Web App ini mempunyai fitur pencatatan data karyawan dan pencatatan hasil kompetensi training setiap karyawan PT Givaudan.',
+    description: 'Merupakan projek kedua PT Givaudan, Web app ini dibuat menggunakan bahasa JavaScript di platform Google Apps Script dan database SpreadSheet. Web App ini mempunyai fitur pencatatan data karyawan dan pencatatan hasil kompetensi training setiap karyawan PT Givaudan.',
     startBuild: 'April 2020',
   },
   {
@@ -132,7 +132,7 @@ const works = [
       'Fetch API',
       'Webpack'
     ],
-    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah User Interface SPA asynchronous yang menampilkan perkembangan data covid dari seluruh dunia.',
+    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah User Interface SPA yang menampilkan perkembangan data covid dari seluruh dunia.',
     startBuild: 'May 2020',
   },
   { 
@@ -193,7 +193,7 @@ const works = [
       'Google Apps Script',
       'Google Spread Sheet'
     ],
-    description: 'Website ini saya buat untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis.',
+    description: 'Website ini merupakan projek untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis.',
     startBuild: 'Juli 2020'
   },
   { 
