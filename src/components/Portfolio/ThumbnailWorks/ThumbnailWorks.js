@@ -24,7 +24,7 @@ const works = [
       'MySql',
       'Bootstrap'
     ],
-    description: 'Pada projek pembuatan website ini saya membuat sebuah website yang digunakan oleh calon peserta training untuk melakukan pendaftaran dan konfirmasi pembayaran, selain itu website ini digunakan juga sebagai company profile Mutiara Mutu Sertifikasi. Sampai saat ini sudah ada lebih dari 3500 orang peserta yang mendaftar lewat website tersebut.',
+    description: 'In this website project, a website is used by training participants to register and confirm payments, besides this website is also used as the company profile of Mutiara Mutu Certification. Until now, there have been more than 4000 participants who have registered through this website.',
     startBuild: 'Agustus 2019',
   },
   { 
@@ -45,7 +45,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Merupakan projek kedua PT Givaudan, Web app ini dibuat menggunakan bahasa JavaScript di platform Google Apps Script dan database SpreadSheet. Web App ini mempunyai fitur pencatatan data karyawan dan pencatatan hasil kompetensi training setiap karyawan PT Givaudan.',
+    description: 'The second project of PT Givaudan, this Web app was created using the JavaScript language on the Google Apps Script platform and the SpreadSheet database. This Web App has a feature of recording employee data and recording the training competency results of each employee of PT Givaudan.',
     startBuild: 'April 2020',
   },
   {
@@ -66,7 +66,7 @@ const works = [
       'Google Spreadsheet', 
       'Bootstrap'
     ],
-    description: 'Merupakan project yang diberikan dosen saya kepada saya setelah sidang skripsi, web app ini memiliki fitur pencatatan data impor bahan baku industri pada PT Givaudan. Selain pencatatan data, WebApp ini juga terdapat fitur laporan, pencetakan surat guna barang, dan terdapat visualisasi data untuk melihat kecepatan alur proses impor apakah sudah sesuai target atau belum.',
+    description: 'This is a project that my lecturer gave me after the skripsi. This web app features data recording of industrial raw material imports at PT Givaudan. In addition to recording data, this WebApp also has a report feature, printing letters for goods, and there is data visualization to see whether the speed of the import process is on target or not.',
     startBuild: 'Maret 2020'
   },
   { 
@@ -89,7 +89,7 @@ const works = [
       'Twitter API',
       'Machine Learning'
     ],
-    description: 'Merupakan bagian dari Skripsi saya. Pada website ini saya membuat sebuah web yang dapat digunakan untuk melakukan analisis sentimen. Saya membuat website ini menggunakan bahasa pemrograman PHP dan agoritma Naive Bayes Classifier. Wesite ini dapat menentukan apakah sebuah kalimat merupakan kalimat yang mengandung sentimen Positif, Negatif, ataupun Netral.',
+    description: 'Is part of my skripsi. On this website I created a website that can be used to conduct sentiment analysis. I created this website using the PHP programming language and the Naive Bayes Classifier agorithm. This website can determine whether a sentence is a sentence that contains positive, negative, or neutral sentiments.',
     startBuild: 'September 2019',
   },
   { 
@@ -112,7 +112,7 @@ const works = [
       'Karma.js',
       'End to end Testing',
     ],
-    description: 'Merupakan web Submission kelas akhir jalur Front-End Web Developer di Dicoding Indonesia. Pada website ini saya membuat User Interface berdasarkan kriteria kebutuhan industri pada bidang front-end saat ini, yang saya terapkan pada website ini diantaranya adalah, Mobile First Approach, Web Accessibility, Clean Code, PWA, Testing, dan pengoptimalan Web Performance',
+    description: 'This is a final class web submission on the Front-End Web Developer path at Dicoding Academy. On this website I created a User Interface based on the industry requirements criteria in the front-end, which are implemented on this website, including, Mobile First Approach, Web Accessibility, Clean Code, Progressive Web Apps (PWA), Testing, and Optimizing Web Performance.',
     startBuild: 'September 2020',
   },
   { 
@@ -132,7 +132,7 @@ const works = [
       'Fetch API',
       'Webpack'
     ],
-    description: 'Pembuatan website Singgle Page Application (SPA) ini saya mempelajari tentang JavaScript ES6, Fetch API, dan Web Component. Sehingga dapat membuat sebuah User Interface SPA yang menampilkan perkembangan data covid dari seluruh dunia.',
+    description: 'The final project of the Learning Fundamentals Front-End Web Development class, learn about JavaScript ES6, Fetch API, and Web Components. So that it can create a Web that displays the development of covid data from around the world.',
     startBuild: 'May 2020',
   },
   { 
@@ -151,7 +151,7 @@ const works = [
       'PHP',
       'MySql'
     ],
-    description: 'Merupakan website untuk keperluan Penulisan Ilmiah saya, website ini dapat digunakan pengguna untuk melakukan pemesanan bibit tanaman yang ada pada sebuah toko tanaman. Fitur yang ada pada website ini diantaranya yaitu menampiklan produk, keranjang belanja, konfirmasi pembayaran dan status pembayaran.',
+    description: 'This is a website for the purposes of my Penulisan Ilmiah, this website can be used by users to place orders for plant seeds in a plant shop. The features on this website include displaying products, shopping carts, payment confirmation and payment status.',
     startBuild: 'April 2018',
   },
   { 
@@ -172,7 +172,7 @@ const works = [
       'MySql',
       'BootStrap'
     ],
-    description: 'Merupakan website yang saya buat untuk teman sekelas saya yang sedang mengerjakan penulisan ilmiahnya di semester 6, pada website ini terdapat fitur input keluar masuk kendaraan, laporan keuangan, manajemen karyawan, dan mengubah tarif parkir.',
+    description: 'This is a website that I created for my classmates at Penulisan Ilmiah in semester 6, on this website there are features for vehicle entry and exit, financial reports, employee management, and changing parking rates.',
     startBuild: 'Desember 2018',
   },
   { 
@@ -193,7 +193,7 @@ const works = [
       'Google Apps Script',
       'Google Spread Sheet'
     ],
-    description: 'Website ini merupakan projek untuk memenuhi kebutuhan email marketing pada Mutiara Mutu Setifikasi. Fitur utama dari website ini adalah mengiring email marketing seperti pemberitahuan jadwal training atau promo yang sedang berjalan kepada email yang ada pada list secara otomatis.',
+    description: 'This website is a project to fulfill email marketing needs at Mutiara Mutu Setifikasi. The main feature of this website is accompanying email marketing such as notification of training schedules or promos that run via email on the list automatically.',
     startBuild: 'Juli 2020'
   },
   { 
@@ -214,7 +214,7 @@ const works = [
       'Materialize CSS',
       'Progressive Web Apps'
     ],
-    description: 'Membuat sebuah tampilan pertandingan sepakbola secara dinamis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homescreen smartphone, mengirimkan notifikasi, dan dapat menyimpan klub favorite.',
+    description: 'Create a dynamic football match schedule website that applies Progressive Web Apps, where the website can be used offline and can add icons to the homescreen, send notifications, and can save favorite clubs.',
     startBuild: 'Juni 2020'
   },
   { 
@@ -234,7 +234,7 @@ const works = [
       'Materialize CSS',
       'Progressive Web Apps'
     ],
-    description: 'Membuat sebuah tampilan website statis yang menerapkan Progressive Web Apps, dimana website dapat digunakan dalam keadaan offline dan dapat menambahkan icon pada homesreen smartphone layaknya aplikasi native.',
+    description: 'Creating a static website display that implements Progressive Web Apps, where the website can be used offline and can add icons to the smartphone homescreen like Android applications.',
     startBuild: 'Juni 2020'
   },
   { 
@@ -252,7 +252,7 @@ const works = [
       'CSS',
       'JavaScript'
     ],
-    description: 'Sumbmission pertama saya pada Dicoding, membuat sebuah tampilan website sederhana yang menerapkan semantic tag dan tampilan yang responsive pada berbagai perangkat, baik itu mobile, tablet ataupun desktop.',
+    description: 'My first Dicoding Submission, is to create a website display that applies semantic tags and responsive display on various devices, be it mobile, tablet or desktop.',
     startBuild: 'april 2020'
   },
 ];
