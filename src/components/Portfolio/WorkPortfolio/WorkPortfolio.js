@@ -11,7 +11,7 @@ class WorkPortfolio extends Component {
       <div className={classes.WorkPortfolio}
         id="workPortfolio">
         <HeaderSection>
-          Work Portfolio
+          My Created Web
         </HeaderSection>
         <ThumbnailWorks />
       </div>

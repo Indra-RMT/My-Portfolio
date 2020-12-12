@@ -10,48 +10,16 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class ShowImages extends Component {
   state = {
-    allImage: null,
-    srcTopImage: require(
-      '../../../assets/images/thumbnail-images/' 
-      + this.props.allImage[0]
-      ),
+    srcTopImage: this.props.allImage[0],
     activeImage: null
   }
 
-  importAll = (r) => {
-    let images = {};
-    r.keys().map((item, index) => { 
-      images[item.replace('./', '')] = r(item); 
-    });
-
-    return images;
-  }
-
-  componentDidMount(){  
-    const images = this.importAll(
-      require.context(
-        '../../../assets/images/thumbnail-images',
-        false,
-        /\.(png|jpe?g|svg)$/
-        )
-      );
-
-    this.setState({allImage: images});
-  }
-  
-
   render () {
-    const allImage = this.props.allImage;
+    const allImage = this.props.allImage;    
     let listImage = [];
 
     allImage.forEach((image, i) => {
-      let sourceImage = '';
-      if(image !== null){
-        sourceImage = require(
-          '../../../assets/images/thumbnail-images/' 
-          + image
-          )
-      }
+      let sourceImage = image? image : '';
 
       let classListImage = classes.image;
       if(this.state.activeImage === null && i === 0){
@@ -89,8 +57,7 @@ class ShowImages extends Component {
     }
 
     const setTopImage = (image) => {
-      const allImage = this.state.allImage;
-      this.setState({srcTopImage: allImage[image]});
+      this.setState({srcTopImage: image});
     }
 
     const setActiveImageClass = (index) => {
@@ -106,7 +73,6 @@ class ShowImages extends Component {
               alt="mainImage"
               effect="blur"/>
           </div>
-          
           <div className={classes.listImages}>
             {listImage}
           </div>

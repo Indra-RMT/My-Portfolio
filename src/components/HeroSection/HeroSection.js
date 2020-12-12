@@ -23,7 +23,7 @@ class HeroSection extends Component {
                 duration={600}
                 to="workPortfolio">
                 <Button btnType="Success">
-                  My Work
+                  My Created Web
                 </Button>
               </ScrollLink>
             </div>

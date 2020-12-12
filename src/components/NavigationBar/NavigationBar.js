@@ -30,7 +30,7 @@ class NavigationBar extends Component {
             offset={-50}
             duration={600}
             to="workPortfolio"
-            href="#work-portfolio">Work Portfolio
+            href="#work-portfolio">My Created
           </ScrollLink>
         </li>
         <li>

@@ -11,7 +11,7 @@ class AllWorkPage extends Component {
     return (
       <div>
         <HeaderSingglePage>
-          All Work
+          All Web
         </HeaderSingglePage>
         <PageContainer>
           <AllWork/>

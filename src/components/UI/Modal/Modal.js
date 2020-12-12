@@ -34,10 +34,12 @@ class Modal extends Component {
       const url =
         <div className={classes.webDetail}>
           <div className={classes.labelDetail}>
-            URL :
+            Preview :
           </div>
           <div className={classes.contentDetail}>
-            <a href={allProps.url} target="_blank" rel="noopener noreferrer">{allProps.url}</a>
+            <a href={allProps.url} target="_blank" rel="noopener noreferrer">
+              Open Web
+            </a>
           </div>
         </div>
 
@@ -48,8 +50,10 @@ class Modal extends Component {
           <div className={classes.labelDetail}>
             Github :
           </div>
-          <div className={classes.contentDetail}>
-            <a href={allProps.githubUrl} target="_blank" rel="noopener noreferrer">{allProps.githubUrl}</a>
+          <div className={[classes.contentDetail, classes.github].join(' ')}>
+            <a href={allProps.githubUrl} target="_blank" rel="noopener noreferrer">
+              Open Github
+            </a>
           </div>
         </div>
 
@@ -61,10 +65,11 @@ class Modal extends Component {
         <div className={classes.Modal}>
           <div className={classes.headerModal}>
             <span className={classes.title}>{this.props.children}</span>
-            <div
-              className={classes.closeButton}
+            <div className={classes.closeButton}
               onClick={this.props.btnCloseClicked}>
-              X
+              <div className={classes.buttonWrapper}>
+                <img src="https://www.flaticon.com/svg/static/icons/svg/271/271203.svg" alt="x"/>
+              </div>
             </div>
           </div>
           <div className={classes.content}>
