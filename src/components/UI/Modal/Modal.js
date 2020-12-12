@@ -67,9 +67,9 @@ class Modal extends Component {
             <span className={classes.title}>{this.props.children}</span>
             <div className={classes.closeButton}
               onClick={this.props.btnCloseClicked}>
-              <div className={classes.buttonWrapper}>
-                <img src="https://www.flaticon.com/svg/static/icons/svg/271/271203.svg" alt="x"/>
-              </div>
+              {/* <div className={classes.buttonWrapper}> */}
+                <img src="https://raw.githubusercontent.com/Indra-RMT/Assets-Img/master/thumbnail-images/cancel-icon.png" alt="x"/>
+              {/* </div> */}
             </div>
           </div>
           <div className={classes.content}>

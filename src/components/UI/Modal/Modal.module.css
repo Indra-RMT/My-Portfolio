@@ -52,7 +52,7 @@
 }
 
 .Modal .closeButton {
-  padding: 6px;
+  padding: 1px;
   margin-top: -2px;
   margin-left: 4px;
   border-radius: 5px;
@@ -62,17 +62,19 @@
   cursor: pointer;
   font-size: 16px;
   background-color: #ffffff;
-  font-weight: 700;
+  width: 32px!important;
+  height: 32px!important;
 }
 
-.Modal .buttonWrapper {
-  opacity: 25%;
-  width: 20px;
-  height: 20px;
+.Modal .closeButton img {
+  opacity: 14%;
+  /* width: 20px!important;
+  height: 20px!important; */
+  width: 100%;
 }
 
-.Modal .closeButton:hover .buttonWrapper {
-  opacity: 30%;
+.Modal .closeButton:hover img {
+  opacity: 17%;
 }
 
 
