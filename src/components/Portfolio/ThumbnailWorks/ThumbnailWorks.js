@@ -112,7 +112,7 @@ const works = [
       'Karma.js',
       'End to end Testing',
     ],
-    description: 'This is a final class web submission on the Front-End Web Developer path at Dicoding Academy. On this website I created a User Interface based on the industry requirements criteria in the front-end, which are implemented on this website, including, Mobile First Approach, Web Accessibility, Clean Code, Progressive Web Apps (PWA), Testing, and Optimizing Web Performance.',
+    description: 'This is a final class web submission on the Front-End Web Developer path at Dicoding Academy. On this website I created a user interface and functional web based on the industry requirements criteria in the front-end, which are implemented on this website, including, Mobile First Approach, Web Accessibility, Clean Code, Progressive Web Apps (PWA), Testing, and Optimizing Web Performance.',
     startBuild: 'September 2020',
   },
   { 
