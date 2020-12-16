@@ -9,4 +9,11 @@
   padding: 14px;
   text-align: center;
   color: #ffffff;
+  position: relative;
+}
+
+.Footer .reactIcon {
+  position: absolute;
+  top: 16px;
+  margin-left: 5px;
 }
